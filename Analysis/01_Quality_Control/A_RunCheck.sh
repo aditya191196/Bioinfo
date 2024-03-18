@@ -4,7 +4,7 @@
 #$ -m abe
 #$ -q debug
 #$ -N RunQC_A
-
+module load bio/2.0
 echo "Checking for software used in this step"
 
 echo "Checking for FastQC"
